@@ -198,6 +198,9 @@ h3.experience-title {
     margin-bottom:60px;
 @include breakpoint(baby-bear) {width:100%; margin-bottom:20px;}
 }
+p.tech-stack {
+    font-weight: 900;
+}
 .job-wrapper {
     width:70%;
     float:left;
@@ -205,9 +208,6 @@ h3.experience-title {
     padding-right:5%;
     margin-bottom:60px;
 @include breakpoint(baby-bear) {width:100%;margin-bottom:40px;}
-    p.tech-stack {
-        font-weight: 900;
-    }
 }
 .experience-title {
     color:white;
