@@ -17,7 +17,8 @@ a {
 
 .clearfix::after, .clearfix::before {
   content: " ";
-  display: table; }
+  display: table;
+  text-align:left;}
 
 .clearfix::after {
   clear: both; }
