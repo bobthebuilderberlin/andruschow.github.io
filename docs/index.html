@@ -1,395 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <title>Robert Andruschow</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Full Stack Web Developer" />
+  <meta name="keywords" content="resume,cv,Thomas Leon Highbaugh" />
+  <meta name="author" content="Thomas Leon Highbaugh" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet" />
+  <link rel="preload" href="./fonts/Jost-Medium.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <!--Meta Tags-->
-    <meta charset="UTF-8">
-    <meta name="author" content="Robert Andruschow" />
-    <meta name="description"
-        content="Robert Andruschow: Freelance DevOps / DevSecOps / Site Reliability / Cloud / Backend Engineer" />
-    <meta name="robots" content="all" />
-    <meta name="keywords"
-        content="Robert Andruschow, DevOps Engineer, GCP, Cloud, AWS, Terraform, IaC, Berlin, Java, Backend Developer" />
-    <meta name="googlebot" content="all" />
-    <meta property="og:title" content="Robert Andruschow" />
-    <meta property="og:type" content="CV and misc information about Robert Andruschow" />
-    <meta property="og:url" content="https://andruschow.de" />
-    <meta property="og:image" content="https://andruschow.de/portrait.jpg" />
-    <meta property="og:site_name" content="andruschow.de" />
-    <meta property="og:description" content="andruschow.de - Robert Andruschow" />
-    <link rel="author" href="https://www.linkedin.com/in/robert-andruschow" />
-
-
-    <link rel="stylesheet" href="main.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-    <script src="/main.js"></script>
-    <link rel="icon" type="image/png" href="/favicon.png">
+  <link href="./build.css" rel="stylesheet" />
+  <title>Robert Andruschow — Resume</title>
 </head>
+<!-- Body ----------------------------------------------------------------------- -->
 
 <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <div class="resume-wrapper">
-        <section class="profile section-padding">
-            <div class="container">
-                <div class="picture-resume-wrapper">
-                    <div class="picture-resume">
-                        <span><img src="portrait.jpg" alt="" /></span>
-                        <svg version="1.1" viewBox="0 0 350 350">
+  <main class="font-jost hyphens-manual">
+    <!-- Page -------------------------------------------------------------------------------------------------------->
+    <section
+      class="p-3 my-auto mx-auto max-w-3xl bg-gray-50 rounded-2xl border-2 border-gray-700 sm:p-9 md:p-16 lg:mt-6 lg:mb-6 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o xsm:p-8 print:bg-white md:max-w-letter md:h-letter lg:h-letter">
+      <!-- Name ---------------------------------------------------------------------------------------------------->
+      <header class="inline-flex justify-between items-baseline pb-2 mb-2 w-full align-top border-b-4 border-gray-300">
+        <section class="block">
+          <h1 class="mb-0 text-5xl font-bold text-gray-700">
+            Robert Andruschow
+          </h1>
+          <!--Job Title--------------------------------------------------------------------------------------------------------->
+          <h2 class="m-0 ml-0 text-2xl font-semibold text-gray-700 leading-snugish">DevOps / Platform / Site
+            Reliability / Cloud / Backend Engineer
+          </h2>
+          <!--Location --------------------------------------------------------------------------------------------------------->
 
-                            <defs>
-                                <filter id="goo">
-                                    <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-                                    <feColorMatrix in="blur" mode="matrix"
-                                        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-                                </filter>
-                            </defs>
-
-
-                            <g filter="url(#goo)">
-
-                                <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130" />
-
-                                <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7" />
-                                <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7" />
-
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="name-wrapper">
-                    <h1>Robert <br />Andruschow</h1><!-- YOUR NAME AND LAST NAME  -->
-                </div>
-                <div class="clearfix"></div>
-                <div class="contact-info clearfix">
-                    <ul class="list-titles">
-                        <!--<li>Call</li>-->
-                        <li>Mail</li>
-                        <li>Web</li>
-                        <li>Home</li>
-                        <!-- <li>Calendly</li> -->
-                        <li>LinkedIn</li>
-                        <li>GitHub</li>
-                    </ul>
-                    <ul class="list-content ">
-                        <li>robert(ãt)andruschow.de</li> <!-- YOUR EMAIL -->
-                        <li><a href="https://andruschow.de">andruschow.de</a></li> <!-- YOUR WEBSITE  -->
-                        <li>Berlin, Germany</li> <!-- YOUR STATE AND COUNTRY  -->
-                        <!-- <li><a href="https://calendly.com/robert-andruschow/say-hello" target="_blank">Book an appointment!</a></li> -->
-                        <li><a href="https://www.linkedin.com/in/robert-andruschow"
-                                target="_blank">www.linkedin.com/in/robert-andruschow</a>
-                        </li>
-                        <li><a href="https://github.com/bobthebuilderberlin/">github.com/bobthebuilderberlin</a></li>
-                        <small>
-                            <p>Code for this website can be found <a
-                                    href="https://github.com/bobthebuilderberlin/andruschow.github.io">here</a>. Hosted
-                                on GitHub Pages.</p>
-                        </small>
-                    </ul>
-                </div>
-                <div class="contact-presentation"> <!-- YOUR PRESENTATION RESUME  -->
-                    <p><span class="bold">DevOps / DevSecOps / Site Reliability / Cloud / Backend Engineer and
-                            Consultant</span> Freelancer</p>
-                    <p style="display:inline-block;"><img style="height: 6em;vertical-align: middle;"
-                            src="https://templates.images.credential.net/16590181582433100721069374350922.png"
-                            alt="" /><a
-                            href="https://google.accredible.com/e2c2b1ea-7b1b-4639-a2f8-a08a9e757b7b?key=2ad07aa342c8c241b895306d8e5c19f07ed14affc8c5d791f828eb822d8c3eef"
-                            target="_blank">&nbsp;Google Cloud Certified Professional Cloud Architect</a></p>
-                </div>
-            </div>
+          <h3 class="m-0 mt-2 ml-0 text-xl font-semibold text-gray-500 leading-snugish">
+            Berlin, Germany
+          </h3>
         </section>
-
-        <section class="experience section-padding">
-            <div class="container">
-                <h3 class="experience-title">Professional Experience</h3>
-
-                <div class="experience-wrapper">
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://kube-advisor.io"
-                                    target="_blank">kube-advisor.io</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">August 2024 - now</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Founder</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Creating a platform for automating observability for Kubernetes best practices and
-                                    misconfigurations</li>
-                                <li> Working on all aspects of the product: AWS Infrastructure, Backend, Frontend,
-                                    Kubernetes agent, Marketing and Sales. </li>
-                                <li> Technologies used: </li>
-                                <li><a href="https://go.dev/" target="_blank">Go</a>, Docker, MQTT and Helm for the
-                                    cluster agent, which was <a
-                                        href="https://github.com/kube-advisor-io/kube-advisor-agent"
-                                        target="_blank">open sourced</a> along with <a
-                                        href="https://github.com/kube-advisor-io/helm-charts" target="_blank">its helm
-                                        chart</a>
-                                <li> Go, AWS IoT Core (MQTT Broker), API Gateway, Cognito, Lambda, S3 and DynamoDB for
-                                    the backend - all managed via Terraform for Infrastructure-as-code.
-                                </li>
-                                <li> React.js, TailwindCSS, Bootstrap, next.js for the the frontend</li>
-                                <li> GitHub for version control</li>
-                                <li> Cloudflare as CDN, Auth layer and DNS provider </li>
-                                <li> Marketing using Google Ads and LinkedIn Ads</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://www.bundesdruckerei.de/en"
-                                    target="_blank">Bundesdruckerei</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">August 2023 - August 2024</div>
-                            <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Site Reliability Engineer (labour lease)</div>
-                            <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Working on the 3 projects <a
-                                        href="https://www.ausweisapp.bund.de/fileadmin/user_upload/Dateien/Webinar_06.07.22/BMI_Einsatz_der_Smart-eID.pdf"
-                                        target="_blank"> Smart-eID</a>, the digital passport for Germany, <a
-                                        href="https://www.auto-motor-und-sport.de/verkehr/fahrzeugschein-soll-digital-werden/"
-                                        target="_blank">Elektronische Zulassungsbescheinigung I</a>, the digital car
-                                    registration document for Germany and the digital driver's license for Germany.</li>
-                                <li> Site Reliability Engineering on top of BDR's OpenShift Platform, using GitLab,
-                                    Helm, Terraform, Prometheus, Grafana, OpsGenie, Uptrends, and Blackbox Exporter
-                                    among others</li>
-                                <li> Introduction of <a href="https://en.wikipedia.org/wiki/Request_for_Comments"
-                                        target="_blank">RFC's</a> for solutions design</li>
-                                <li> Design and implementation of a project-generic release process (utilizing GitLab
-                                    Pipelines). Discussions with Management and Backend Engineers on the base of the RFC
-                                    design document for that.</li>
-                                <li> Introduction of a team-internal 360 degree feedback process</li>
-                                <li> Abstracted SRE tooling for project-generic use rather than per-project
-                                    implementation</li>
-                                <li> Lead discussions with the client about direct network interconnects via a secure
-                                    physical network and implemented our end of that</li>
-                                <li> Design and implementation of a monitoring solution for <a
-                                        href="https://www.governikus.de/loesungen/produkte/eid-service/"
-                                        target="_blank">the Governikus eID-Server</a></li>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://www.kivvon.com/" target="_blank">KiVVON Media
-                                    GmbH</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">August 2023 - April 2024</div>
-                            <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Cloud Consultant (Freelancer)</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Supporting a startup development team with their AWS/Cloud setup </li>
-                                <li> Definition of company cyber security agenda supported by <a
-                                        href="https://aws.amazon.com/de/security-hub/" target="_blank">AWS Security
-                                        Hub</a> and organization as well as hands-on work in acting on it</li>
-                                <li> Creation of new environment-specific VPC networks (utilizing Terraform) including
-                                    Client VPN, ALB's/NLB's, CloudFront Protection, private RDS DB's following the AWS
-                                    Well-Architected Framework and organizing the move of the whole platform to them
-                                </li>
-                                <li> Concept for AWS IAM User Managment following the <a
-                                        href="https://en.wikipedia.org/wiki/Principle_of_least_privilege"
-                                        target="_blank">Principle of Least Privilege</a></li>
-                                <li> Introduction of Terraform for Infrastructue-as-code</li>
-                                <li> Introduction of <a href="https://en.wikipedia.org/wiki/Request_for_Comments"
-                                        target="_blank">RFC's</a> for solutions design</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://andruschow.de"
-                                    target="_blank">andruschow.de</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">June 2023 - present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Freelancer</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Completed <a
-                                        href="https://google.accredible.com/e2c2b1ea-7b1b-4639-a2f8-a08a9e757b7b?key=2ad07aa342c8c241b895306d8e5c19f07ed14affc8c5d791f828eb822d8c3eef"
-                                        target="_blank">Google Cloud Certified Professional Cloud
-                                        Architect</a> certification.</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://up42.com/" target="_blank">UP42</a></div>
-                            <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">June 2020 - May 2023</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Senior DevOps Engineer</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Built and maintained cloud infrastructure in mainly GCP, but also AWS and Azure
-                                </li>
-                                <li> Terraformed all the things using various providers including GCP, AWS, Azure,
-                                    Pingdom, DataDog, Cloudflare (Zero Trust), Spot.io, OpsGenie and GitHub </li>
-                                <li> Creation and maintenance of GKE-based Kubernetes clusters hosting the entire UP42
-                                    platform </li>
-                                <li> Designed and implemented secrets management using <a
-                                        href="https://www.vaultproject.io/" target="_blank">HashiCorp Vault</a></li>
-                                <li> Introduction of <a href="https://www.cloudflare.com/products/zero-trust/"
-                                        target="_blank">Cloudflare Zero Trust</a>: Providing non-public IP access to
-                                    internal applications utilizing SAML and GitHub authorization </li>
-                                <li> Introduction of cloud user and service permissions scheme based on the principle of
-                                    least privilege </li>
-                                <li> Managed conduction of penetration tests with multiple external companies and
-                                    organized fixing the found issues </li>
-                                <li> Support of <a href="https://en.wikipedia.org/wiki/System_and_Organization_Controls"
-                                        target="_blank">SOC 2 Type 2</a> cyber security certification process </li>
-                                <li> Increased observability of the system using Datadog, GCP Metrics and Pingdom and
-                                    introduced alerting and on-call using OpsGenie </li>
-                                <li> Reduced Kubernetes cluster node costs by 75 percent using <a
-                                        href="https://spot.io/" target="_blank">spot.io</a></li>
-                                <li> Network design and administration: NAT's, firewall rules, routing, peering, <a
-                                        href="https://cloud.google.com/vpc/docs/shared-vpc" target="_blank">Shared
-                                        VPC's.</a></li>
-                                <li> Designed and implemented application and infrastructure CI/CD pipelines with
-                                    CircleCI and Slack reporting </li>
-                                <li> Supported software engineers with SRE-related questions and problems </li>
-                                <li> Supported various product efforts in the geospatial domain </li>
-                                <li> Hiring Manager for SRE team: Interviewed and hired new team members </li>
-                                <li> First steps into leadership role with 1 report and being part of the extended
-                                    leadership group </li>
-                                <p class="tech-stack"> Tech Stack: GCP (GKE, Shared VPC / Cloud NAT / Firewall and
-                                    Routing, IAM, CloudSQL, Pub/Sub, GCS, GCR, Logging), Kubernetes, Terraform, Helm,
-                                    Docker, CircleCI, GitHub (Actions), ArgoCD, Argo Workflows, HashiCorp Vault,
-                                    DataDog, Prometheus / Alertmanager / Grafana, Cloudflare (Zero Trust), OpsGenie,
-                                    Pingdom, Spot.io, AWS (IAM / S3 / SageMaker), Ruby, Golang, Java / Kotlin,
-                                    bash/zsh/ash, Windows VM Licensing</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://www.bonial.com/de/"
-                                    target="_blank">Bonial.com</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">October 2017 - May 2020</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">DevOps Engineer</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Designed and implemented SDLC and CI/CD processes using Spinnaker and Jenkins</li>
-                                <li> Initiated containerization in the company, first with AWS ECS, then with Kubernetes
-                                    / EKS </li>
-                                <li> Deep dive into Kubernetes and EKS - as a team, we provided a fully-automated
-                                    cluster setup using terraform including CI/CD with Spinnaker, logging with
-                                    fluentd/Cloudwatch/Elasticsearch, monitoring with Prometheus and on-call with
-                                    VictorOps </li>
-                                <li> Built and extended a staging environment creation app that builds dozens of staging
-                                    environments every day. </li>
-                                <li> Built metrics proxy for DataDog able to white- and blacklist custom metrics sent to
-                                    DataDog. High performance system with 6000 requests/m. </li>
-                                <li> Implemented Slack ChatOps app that could trigger/halt/proceed Spinnaker builds.
-                                </li>
-                                <li> Extending and maintaining our AWS infrastructure using infrastructure-as-code using
-                                    terraform and CloudFormation </li>
-                                <li> Main go-to-person for all SDLC revolving topics for our around 100 developers.
-                                    Introduced SDLC ambassador program organizing knowledge transfer to the teams. </li>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title"><a href="https://www.bonial.com/de/"
-                                    target="_blank">Bonial.com</a></div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">June 2011 - Oct 2017</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Backend Developer</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <li> Implemented web apps, KPI logic and b2b logic in spring-* and grails</li>
-                                <li> Owned and maintained main notification system with millions of notifications per
-                                    day</li>
-                                <li> Dealing with design and migrations of various db systems (Postgres, MongoDB)</li>
-                                <li> Deployment of applications on AWS auto-scaling VM groups using <a
-                                        href="https://spinnaker.io/" target="_blank">Spinnaker</a></li>
-                                <li> Auto-scaling patterns, anti-trainwreck patterns, microservices, BDD/TDD</li>
-                                <li> Working in an international always-growing and -learning IT team using Scrum and
-                                    Kanban</li>
-                                <!-- JOB DESCRIPTION  -->
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title">Self-Employed</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">2010 - 2013</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Pawn Shop Business Software</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <p>C# and .Net Development with WinForms</p> <!-- JOB DESCRIPTION  -->
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="company-wrapper clearfix">
-                            <div class="experience-title">Technische Universität Berlin</div>
-                            <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-                            <div class="time">2007 - 2017</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-                        </div>
-
-                        <div class="job-wrapper clearfix">
-                            <div class="experience-title">Studying Technical Mathematics</div> <!-- JOB TITLE  -->
-                            <div class="company-description">
-                                <p>Learning mathematical basics, prove techniques and highly abstractive thinking</p>
-                                <!-- JOB DESCRIPTION  -->
-                                <p>Specialising in differential equations and numerics</p> <!-- JOB DESCRIPTION  -->
-                                <p>java, MATLAB and python (NumPy/SciPy) development</p> <!-- JOB DESCRIPTION  -->
-                                <p>Bachelor of Science in 2011 (1.8)</p> <!-- JOB DESCRIPTION  -->
-                            </div>
-                        </div>
-                    </div>
-
-                </div><!--Skill experience-->
-
-                <!--            <div class="section-wrapper clearfix">-->
-                <!--                <h3 class="section-title">Skills</h3>  &lt;!&ndash; YOUR SET OF SKILLS  &ndash;&gt;-->
-                <!--                <ul>-->
-                <!--                    <li class="skill-percentage">Java / Groovy / Grails / Spring-* / Hibernate / Gradle / Maven</li>-->
-                <!--                    <li class="skill-percentage">AWS / Infrastructure-as-code (Terraform | CloudFormation)</li>-->
-                <!--                    <li class="skill-percentage">Docker / AWS ECS</li>-->
-                <!--                    <li class="skill-percentage">Kubernetes</li>-->
-                <!--                    <li class="skill-percentage">CI/CD / SDLC / Spinnaker / Jenkins / Bitbucket Pipelines</li>-->
-                <!--                    <li class="skill-percentage">Linux / OSX / Windows</li>-->
-                <!--                    <li class="skill-percentage">Bash / Python / Ruby / Go / C# and .Net / Matlab</li>-->
-                <!--                    <li class="skill-percentage">Scrum / Agile / Working in a team</li>-->
-
-                <!--                </ul>-->
-
-                <!--            </div>-->
-
-                <div class="section-wrapper clearfix">
-                    <h3 class="section-title">Hobbies</h3> <!-- DESCRIPTION OF YOUR HOBBIES -->
-                    <p>I am a lot into music, both playing and listening. Guitar player since 2004.</p>
-                    <p>Apart from that, I am into reading, traveling, chess and sports (running, swimming, bouldering,
-                        table tennis). Maintaining
-                        friendship and getting to know new people is important to me.</p>
-                </div>
-
-            </div>
+        <!--   
+        <section
+          class="justify-between px-3 mt-0 mb-5 text-4xl font-black leading-none text-white bg-gray-700 initials-container print:bg-black"
+          style="padding-bottom: 1.5rem; padding-top: 1.5rem;">
+          <section class="text-center initial">T</section>
+          <section class="text-center initial">L</section>
+          <section class="text-center initial">H</section>
         </section>
-    </div>
-    <div class="clearfix"></div>
+        Initials Block         -->
+      </header>
+
+      <!-- Column -------------------------------------------------------------------------------------------------->
+      <section
+        class="col-gap-8 print:col-count-1 print:h-letter-col-full col-fill-balance md:col-count-2 md:h-letter-col-full">
+        <section class="flex-col">
+          <!-- Contact Information ------------------------------------------------------------------------------------->
+          <section class="pb-2 mt-4 mb-0 first:mt-0">
+            <!-- To keep in the same column -------------------------------------------------------------------------->
+            <section class="break-inside-avoid">
+              <section class="pb-4 mb-2 border-b-4 border-gray-300 break-inside-avoid">
+                <ul class="pr-7 list-inside">
+                  <li
+                    class="mt-1 leading-normal text-black text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md print:">
+                    <a href="https://andruschow.de" class="group">
+                      <span class="mr-2 text-lg font-semibold text-gray-700 leading-snugish">
+                        Portfolio:
+                      </span>
+                      andruschow.de
+                      <span
+                        class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
+                        ↗
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
+                    <a href="https://kube-advisor.io" target="_blank" class="group">
+                      <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
+                        Platform:
+                      </span>
+                      kube-advisor.io
+                      <span
+                        class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
+                        ↗
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
+                    <a href="https://github.com/bobthebuilderberlin" target="_blank" class="group">
+                      <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
+                        Github:
+                      </span>
+                      bobthebuilderberlin
+                      <span
+                        class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
+                        ↗
+                      </span>
+                    </a>
+                  </li>
+
+                  <li
+                    class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
+                    <a href="https://github.com/kube-advisor-io" target="_blank" class="group">
+                      <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
+                        Github #2:
+                      </span>
+                      kube-advisor-io
+                      <span
+                        class="inline-block font-normal text-black text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black print:">
+                        ↗
+                      </span>
+                    </a>
+                  </li>
+
+
+                  <li
+                    class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
+                    <a href="mailto:robert@andruschow.de" class="group">
+                      <span class="mr-8 text-lg font-semibold text-gray-700 leading-snugish">
+                        Email:
+                      </span>
+                      robert@andruschow.de
+                      <span
+                        class="inline-block font-normal text-gray-500 transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
+                        ↗
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </section>
+          <!--Summary ---------------------------------------------------------------------------------------------------------->
+          <section class="pb-4 mt-0 border-b-4 border-gray-300 first:mt-0">
+            <!-- To keep in the same column -->
+            <section class="break-inside-avoid">
+              <h2 class="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal">
+                SUMMARY
+              </h2>
+
+              <section class="mb-2 break-inside-avoid">
+                <p class="mt-2 leading-normal text-gray-700 text-md">
+                  Seasoned DevOps / Site Reliabilty / Cloud Engineer with 15 years of experience in the industry and a
+                  background in Backend engineering and mathematics. 
+                  <br>I have worked for 6 years as a backend engineer in the java universe before moving to the DevOps field for the last 7 years. I have worked extensively with public cloud (AWS, GCP), Kubernetes and various CI/CD systems. I am a polyglott programmer with expertise in Java and Golang. 
+                  <br>I have a proven track record of successfully executing tech projects, owning all aspects of the infrastructure, fostering knowledge transfer inside and cross-teams and establishing cyber security standards within an organization.
+                  <br>Recently I created <a href="https://kube-advisor.io" target="_blank" class="text-blue-600">kube-advisor.io</a>, a platform uncovering misconfigurations and best practice violations in Kubernetes clusters.
+                </p>
+              </section>
+            </section>
+          </section>
+          <!--  Education ------------------------------------------------------------------------------------------------------
+          <section class="pb-0 mt-2 border-b-4 border-gray-300 first:mt-0 break-inside-avoid">
+            <section class="break-inside-avoid">
+              <h2 class="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal">
+                EDUCATION
+              </h2>
+              <section class="mt-2 border-b-2 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                    California State University East Bay
+                  </h3>
+                  <p class="leading-normal text-gray-500 text-md">
+                    2009 &ndash; 2014 | Bachelor of Arts
+                  </p>
+                </header>
+                <ul class="mt-2 list-disc list-inside text-gray-800 text-md">
+                  <li>
+                    <span class="font-semibold text-md">
+                      Major:
+                    </span>
+                    Political Science
+                  </li>
+                  <li>
+                    <span class="font-semibold text-md">
+                      Minor:
+                    </span>
+                    Economics
+                  </li>
+                  <li>
+                    <span class="font-semibold text-md">
+                      GPA:
+                    </span>
+                    3.9
+                  </li>
+                  <li>
+                    <span class="font-semibold text-md">
+                      Skills:
+                    </span>
+                    Research, Analysis, Critical Thinking, Communication
+                  </li>
+                </ul>
+              </section>
+              <section class="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
+                <header>
+                  <h3 class="flex-grow text-lg font-semibold text-gray-700 leading-snugish">
+                    Las Positas Community College
+                  </h3>
+                  <p class="leading-normal text-gray-500 text-md">
+                    2018 &ndash; Present | Associate of Science/Continuing
+                    Education
+                  </p>
+                </header>
+                <ul class="mt-2 list-disc list-inside text-gray-800 text-md">
+                  <li>
+                    <span class="font-semibold text-md">
+                      Major:
+                    </span>
+                    Computer Science
+                  </li>
+                  <li>
+                    <span class="font-semibold text-md">
+                      GPA:
+                    </span>
+                    4.0
+                  </li>
+                  <li>
+                    <span class="font-semibold text-md">
+                      Skills:
+                    </span>
+                    Programming, Algorithms, Data Structures, Software Development
+                  </li>
+                </ul>
+              </section>
+
+              <section class="pb-4 mt-4 mb-4 break-inside-avoid">
+                <header>
+                  <h3 class="flex-grow text-lg font-semibold text-gray-700 leading-snugish">
+                    Codify Academy
+                  </h3>
+                  <p class="leading-normal text-gray-500 text-md">
+                    2018 | Certificate
+                  </p>
+                </header>
+                <ul class="mt-2 list-disc list-inside text-gray-800 text-md">
+                  <li>
+                    <span class="font-semibold text-md">
+                      Subject:
+                    </span>
+                    Front End Development
+                  </li>
+                  <li>
+                    <span class="font-semibold text-md">
+                      Skills:
+                    </span>
+                    HTML, CSS, JavaScript, Web Development
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </section> -->
+          <section class="pb-6 mt-2 mb-4 border-b-4 border-gray-300 first:mt-0 break-inside-avoid">
+            <!-- To keep in the same column -->
+            <section class="break-inside-avoid">
+              <h2 class="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal">
+                Skills
+              </h2>
+              <section class="mb-0 break-inside-avoid">
+                <section class="mt-1 last:pb-1">
+                  <ul class="flex flex-wrap -mb-1 font-bold leading-relaxed text-md -mr-1.6">
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Tech Ownership
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Public Cloud Architecture
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Automation
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Platform Engineering
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Software Architecture
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Cyber Security
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Backend Engineering
+                    </li>
+
+                  </ul>
+                </section>
+              </section>
+            </section>
+          </section>
+          <!--Begin Skills ----------------------------------------------------------------------------------------------------->
+          <section class="pb-6 mt-2 mb-4 border-b-4 border-gray-300 first:mt-0 break-inside-avoid">
+            <!-- To keep in the same column -->
+            <section class="break-inside-avoid">
+              <h2 class="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal">
+                Familiar Technologies
+              </h2>
+              <section class="mb-0 break-inside-avoid">
+                <section class="mt-1 last:pb-1">
+                  <ul class="flex flex-wrap -mb-1 font-bold leading-relaxed text-md -mr-1.6">
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-blue-600 mr-1.6 print:bg-white print:border-inset">
+                      AWS (8y)
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      GCP (3y)
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Kubernetes (7y)
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Docker
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Helm
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Prometheus / Grafana / Loki / Open Telemetry
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Infrastructure-as-Code
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Terraform
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Cloudformation
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      CDK
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Java/Groovy/Kotlin+Spring/Grails
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Maven/Gradle
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Golang
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Python
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Bash
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Java- / Typescript
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Ruby
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Hashicorp Vault
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Cloudflare / Zero Trust
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Networking / TCP/IP / UDP / SSL / DNS
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      CI/CD
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      GitHub Actions
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      CircleCI
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Gitlab Pipelines
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Bitbucket Pipelines
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Spinnaker
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Jenkins
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Datadog
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Postgres
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      DynamoDB
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      MySQL
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Atlassian Stack
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      OpsGenie
+                    </li>
+                    <li
+                      class="p-1.5 mb-1 leading-relaxed text-white bg-gray-800 mr-1.6 print:bg-white print:border-inset">
+                      Site24x7
+                    </li>
+                  </ul>
+                </section>
+              </section>
+            </section>
+          </section>
+
+          <!--Experience ------------------------------------------------------------------------------------------------------>
+
+          <section class="pb-4 mt-4 border-b-0 print:pt-8 border-gray-300 first:mt-0">
+            <!-- To keep in the same column ------------------------------------------------------------------------->
+
+            <section class="break-inside-avoid">
+              <header
+                class="inline-flex justify-between items-baseline mb-2 w-full align-top border-b-0 border-gray-300">
+                <h2 class="mb-2 text-xl font-black tracking-widest text-gray-800 print:font-normal">
+                  EXPERIENCE
+                </h2>
+              </header>
+
+              <!--Job 1-->
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    Founder
+                  </h3>
+                  <p class="text-sm leading-normal text-gray-500">
+                    August 2024 - now | kube-advisor.io
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Creating a platform automating observability for Kubernetes best practices and
+                    misconfigurations
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Working on all aspects of the product: AWS Infrastructure, Backend, Frontend,
+                    Kubernetes agent, Marketing and Sales.
+                  </li>
+                  <!-- <li>
+                    I built:
+                    <ul class="pl-3">
+                      <li>
+                        <span class="text-gray-500 transform -translate-y-px select-none">
+                          &rsaquo;
+                        </span>
+                        The cluster agent in Golang, which was <a class="text-blue-800"
+                          href="https://github.com/kube-advisor-io/kube-advisor-agent" target="_blank">open sourced</a>
+                        along with <a class="text-blue-800" href="https://github.com/kube-advisor-io/helm-charts"
+                          target="_blank">its helm
+                          chart</a>
+                      <li> <span class="text-gray-500 transform -translate-y-px select-none">
+                          &rsaquo;
+                        </span>
+                        The backend with Golang, Lambda, API Gateway and Cognito Auth
+                      </li>
+                      <li><span class="text-gray-500 transform -translate-y-px select-none">
+                          &rsaquo;
+                        </span> The frontend using React.js, TailwindCSS, Bootstrap and Next.js</li>
+                      <li> <span class="text-gray-500 transform -translate-y-px select-none">
+                          &rsaquo;
+                        </span>The CDN, Auth and DNS layer using Cloudflare </li>
+                      <li> <span class="text-gray-500 transform -translate-y-px select-none">
+                          &rsaquo;
+                        </span>Marketing campaigns using Google Ads and LinkedIn Ads</li>
+                    </ul>
+                  </li> -->
+                </ul>
+              </section>
+              <!-- job 2  -->
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    Site Reliability Engineer (labour lease)
+                  </h3>
+                  <p class="text-sm text-gray-500 leading-snugish">
+                    August 2023 - August 2024 | Bundesdruckerei GmbH
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Working on the projects <a
+                      href="https://www.ausweisapp.bund.de/fileadmin/user_upload/Dateien/Webinar_06.07.22/BMI_Einsatz_der_Smart-eID.pdf"
+                      target="_blank"> Smart-eID</a> (the digital passport for Germany)<a
+                      href="https://www.auto-motor-und-sport.de/verkehr/fahrzeugschein-soll-digital-werden/"
+                      target="_blank">, EZB I</a> (the digital car registration for Germany) and the digital driver's
+                    license for Germany.
+                  </li>
+
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Site Reliability Engineering on top of BDR's on-premise OpenShift Platform
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Introduction of a project-generic release process, RFC's for solutions design and a team-internal
+                    360°
+                    feedback process
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Led discussions with the customer around a secure network connection via Netz-des-Bundes
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Design and implementation of a monitoring solution for <a
+                      href="https://www.governikus.de/loesungen/produkte/eid-service/" target="_blank">the Governikus
+                      eID-Server</a>
+                  </li>
+                </ul>
+              </section>
+              <!-- job 3 -->
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    Cloud Consultant (Freelancer)
+                  </h3>
+                  <p class="text-sm text-gray-500 leading-snugish">
+                    August 2023 - April 2024 | KiVVON GmbH
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Supported a startup development team with their AWS/Cloud architecture and security posture
+                  </li>
+                </ul>
+              </section>
+              <!-- job 4 -->
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    Senior DevOps Engineer
+                  </h3>
+                  <p class="text-sm text-gray-500 leading-snugish">
+                    June 2020 - May 2023 | UP42 GmbH
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Owned the whole company's cloud infrastructure (mainly GCP + GKE, but also AWS and Azure)
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Designed and implemented secrets management using <a href="https://www.vaultproject.io/"
+                      target="_blank">HashiCorp Vault</a> and rolled it out to the whole org
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Introduction of <a href="https://www.cloudflare.com/products/zero-trust/" target="_blank">Cloudflare
+                      Zero Trust</a>
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Managed conduction of penetration tests with multiple external providers and
+                    organized fixing the found issues
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Support of <a href="https://en.wikipedia.org/wiki/System_and_Organization_Controls"
+                      target="_blank">SOC 2 Type 2</a> cyber security certification process
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Improved observability of the platform, introduction of alerting and on-call using OpsGenie
+                  </li>
+                </ul>
+              </section>
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    DevOps Engineer
+                  </h3>
+                  <p class="text-sm text-gray-500 leading-snugish">
+                    October 2017 - May 2020 | Bonial International GmbH
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Introduction of containerization into the company, first with ECS, then EKS.
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Main contact person for all SDLC revoling topics for around 100 software engineers
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Built proxy for DataDog to whitelist custom metrics
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Reengineered app for rapid staging environment creation using CloudFormation and Grails
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Implemented ChatOps apps interconnecting Slack and Spinnaker
+                  </li>
+
+                </ul>
+              </section>
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    Backend Engineer
+                  </h3>
+                  <p class="text-sm text-gray-500 leading-snugish">
+                    June 2011 - Oct 2017 | Bonial International GmbH
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Backend engineering with java, groovy, spring and grails. Deep dive into various software design patterns (e.g microservices, BDD/TDD, anti-trainwreck, auto-scaling).
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Owned and improved main notification system sending millions of messages to customers on a daily basis
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Dealt with design and migrations for various database systems (Postgres, MongoDB)
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Owned the system scraping data from 100's of retailer websites 
+                  </li>
+                </ul>
+              </section>
+              <section class="mb-2 border-b-2 border-gray-300 break-inside-avoid">
+                <header>
+                  <h3 class="font-semibold text-gray-800 text-md leading-snugish">
+                    Developer Pawn Shop Business Software
+                  </h3>
+                  <p class="text-sm text-gray-500 leading-snugish">
+                    2010 - 2013 | Self-employed
+                  </p>
+                </header>
+                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    C# and .Net Development with WinForms
+                  </li>
+                  <li>
+                    <span class="text-gray-500 transform -translate-y-px select-none">
+                      &rsaquo;
+                    </span>
+                    Defined the product based on customer discussions
+                  </li>                 
+                </ul>
+              </section>
+            </section>
+          </section>
+
+
+          <!-- end Column -->
+        </section>
+        <!-- end Page -->
+  </main>
 </body>
+
+</html>
