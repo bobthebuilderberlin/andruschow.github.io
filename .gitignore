@@ -4,7 +4,6 @@
 package-lock.json
 /tmp/
 yarn.lock
-docs
 .DS_Store
 
 .idea/
