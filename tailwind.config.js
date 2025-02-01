@@ -2,10 +2,10 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content:[
-"**/*.html",
+  content: [
+    "**/*.html",
     "**/*.css"
-],
+  ],
   theme: {
     /* For Letter size */
     screens: {
@@ -194,7 +194,8 @@ module.exports = {
           "column-count": "3",
         },
         ".col-gap-md": {
-          "column-gap": "2.1875rem",
+          "column-gap": "2.8875rem",
+          // "column-gap": "2.8875rem",
         },
         ".break-after-col": {
           "break-after": "column",
